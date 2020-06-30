@@ -56,11 +56,11 @@ public class Main {
 		String monthAndYear = in.next();
 		int month = Integer.parseInt(monthAndYear.substring(0, 2));
 		int year = Integer.parseInt(monthAndYear.substring(3, 7));
-		System.out.println("%nName: "
+		System.out.println("\nName: "
 							+ worker.getName()
-							+ "%nDepartment: "
+							+ "\nDepartment: "
 							+ worker.getDepartment().getName()
-							+ "%nIncome for "
+							+ "\nIncome for "
 							+ monthAndYear
 							+ ": "
 							+ String.format("%.2f", worker.income(year, month)));
